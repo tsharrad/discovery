@@ -1,4 +1,4 @@
-#4x4 DISCOVERY BOT!!
+#4x4 DISCOVERY BOT!!!
 year = Time.now.year
 
 positive = ["great work", "super", "well done"]
