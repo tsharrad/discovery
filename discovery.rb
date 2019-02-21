@@ -26,9 +26,9 @@ case disco
     sleep(1)
     puts "Here are some reliable mechanics"
     sleep(1)
-    puts "Bobs Garage Adelaide"
-    puts "Big 4x4 Loxton"
-    puts "Tom's Backyarders garage"
+    puts "Bobs Garage"
+    puts "Big 4x4"
+    puts "Tommo's Backyarders garage"
     end
   when 'n', 'N', 'no', 'No'
   disco = false
