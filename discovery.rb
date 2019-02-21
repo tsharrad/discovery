@@ -45,12 +45,30 @@ case disco
   when 'n', 'N', 'no', 'No'
   disco = false
   puts negative.sample #taking entry from negative array
+  sleep(1)
   puts "Will you ever purchase one?"
   answer_2 = gets.chomp
-    if answer_2 == "yes"
+    if answer_2 == "y"
     puts "Good job, you won't regret it"
+    sleep(1)
+    puts "Listing websites with Disco's for sale"
+    print "- "
+    sleep(0.5)
+    print "- "
+    sleep(0.5)
+    print "- "
+    sleep(0.5)
+    print "- "
+    sleep(0.5)
+    print "- "
+    sleep(0.5)
+    print "- "
+    puts " "
+    sleep(1)
+    puts "www.carsales.com.au"
+    puts "www.carsguide.com.au"
+    puts "www.gumtree.com.au"
     else
     puts "Well we can only hope you change your mind one day"
     end
 end
-
