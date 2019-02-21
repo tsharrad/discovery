@@ -19,12 +19,24 @@ case disco
   sleep(1)
   puts "Is it still running well?"
   answer = gets.chomp
-    if answer == "yes"
+    if answer == "y"
     puts "Good work maintaining your vehicle"
     else
     puts "You should stay on top of the maintenence schedule"
     sleep(1)
-    puts "Here are some reliable mechanics"
+    puts "Finding some reliable mechanics"
+    print "- "
+    sleep(0.5)
+    print "- "
+    sleep(0.5)
+    print "- "
+    sleep(0.5)
+    print "- "
+    sleep(0.5)
+    print "- "
+    sleep(0.5)
+    print "- "
+    puts " "
     sleep(1)
     puts "Bobs Garage"
     puts "Big 4x4"
@@ -35,9 +47,10 @@ case disco
   puts negative.sample #taking entry from negative array
   puts "Will you ever purchase one?"
   answer_2 = gets.chomp
-    if answer_2 == "y"
+    if answer_2 == "yes"
     puts "Good job, you won't regret it"
     else
     puts "Well we can only hope you change your mind one day"
     end
 end
+
